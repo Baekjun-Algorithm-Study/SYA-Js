@@ -13,3 +13,5 @@ avg = sum/grade.length
 console.log(avg);
 
 
+
+
