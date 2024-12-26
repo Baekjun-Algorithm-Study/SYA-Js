@@ -12,3 +12,4 @@ let N2 = input[0].split(' ').map(Number);
 let list2 = input[1].split(' ').map(Number);
 
 console.log(list2.filter((ele) => ele < N2[1]).join(' '));
+
