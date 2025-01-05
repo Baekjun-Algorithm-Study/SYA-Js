@@ -2,6 +2,7 @@ let input = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n
 let totalScore = 0;
 let totalCredit = 0;
 
+
 for(var i = 0; i < input.length; i++){
         const[, credit, rank] = input[i].split(" ");
         if(rank !== "P"){  
